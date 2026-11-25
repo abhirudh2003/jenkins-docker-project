@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'instantprachi/jenkins-demo'
+        DOCKER_IMAGE = 'abhirudh2003/jenkins-demo'
         DOCKER_TAG = 'latest'
         PATH = "/usr/local/bin:${env.PATH}"
     }
